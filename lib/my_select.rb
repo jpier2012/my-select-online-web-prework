@@ -11,4 +11,4 @@ def my_select collection
 end
 
 arr = *(1..10)
-my_select(arr) {|i| i % 2 == 0}
+my_select(arr) {|x| x % 2 == 0}
