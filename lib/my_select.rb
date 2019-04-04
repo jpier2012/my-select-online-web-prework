@@ -3,6 +3,6 @@ def my_select collection
   new_array = []
     while i < collection.size
     new_array[i] = yield collection[i]
-    
+
 
 end
