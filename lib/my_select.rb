@@ -3,7 +3,7 @@ def my_select collection
   new_array = []
   while i < collection.size
     if yield collection[i]
-      new_array[i] = yield collection[i]
+      new_array[i] = collection[i]
     end
     i += 1
   end
