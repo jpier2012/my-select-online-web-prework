@@ -9,3 +9,6 @@ def my_select collection
   end
   new_array
 end
+
+arr = *(1..10)
+my_select(arr) {|i| i % 2 == 0}
